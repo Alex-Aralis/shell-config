@@ -11,9 +11,9 @@
 
 ### for bash
 # if login then source first to exist
-  !.bash_profile
-  !.bash_login
-  !.profile
+!.bash_profile
+!.bash_login
+!.profile
 # fi
 !.bashrc # interactive and non login
 !.bash_logout # logout
