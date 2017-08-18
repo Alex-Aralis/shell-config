@@ -4,26 +4,41 @@
 # whitelist
 
 ## env setup
-!.profile # on every login
+!.profile
 
 ### for sh
 !.shrc
 
 ### for bash
+
 # if login then source first to exist
 !.bash_profile
 !.bash_login
 !.profile
 # fi
-!.bashrc # interactive and non login
-!.bash_logout # logout
+
+# non login interactive
+!.bashrc
+
+# logout
+!.bash_logout
 
 ### for zsh in chronogical order
-!.zshenv # always
-!.zprofile # login
-!.zshrc # interactive
-!.zlogin # login
-!.zlogout # logout
+# always
+!.zshenv
+
+# login
+!.zprofile
+
+# interactive
+!.zshrc 
+
+# login
+!.zlogin 
+
+# logout
+!.zlogout 
+
 
 ### zsh plugins
 !.antibody.bundle
