@@ -1,0 +1,13 @@
+[user]
+	email = alex.aralis@gmail.com
+	name = Alex Aralis
+
+[alias]
+        glog = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+
+[push]
+	default = simple
+        followTags = true
+
+[commit]
+#        gpgSign = true
