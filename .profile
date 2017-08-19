@@ -1,6 +1,7 @@
 export PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 export PATH="$HOME/.bin:$PATH"
 export PATH="$(go env GOPATH)/bin:$PATH"
+export PATH="$HOME/.n/bin:$PATH"
 export PATH="/home/developer/.rbenv/shims:${PATH}"
 
 export XDG_CACHE_HOME=$HOME/.cache
@@ -18,6 +19,8 @@ export LANG=en_US.UTF-8
 export NQDIR="$XDG_CACHE_HOME/nq"
 
 export EDITOR="vim"
+
+export N_PREFIX="$HOME/.n"
 
 source "$HOME/.profile.private"
 

@@ -1,6 +1,7 @@
-antibody bundle denysdovhan/spaceship-zsh-theme
-antibody bundle zsh-users/zsh-syntax-highlighting
-antibody bundle rmarquis/pacaur
-antibody bundle djui/alias-tips
-antibody bundle zsh-users/zsh-completions
-antibody bundle supercrabtree/k
+alex-aralis/spaceship-zsh-theme
+zsh-users/zsh-syntax-highlighting
+rmarquis/pacaur
+djui/alias-tips
+zsh-users/zsh-completions
+supercrabtree/k
+lukechilds/zsh-nvm

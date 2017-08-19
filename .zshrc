@@ -17,6 +17,8 @@ autoload -Uz compinit
 autoload -U colors && colors
 compinit
 
+# OMZ shims
+# source "$HOME/.OMZ-shims/"*
 
 # setting options
 setopt autocd extendedglob
@@ -25,7 +27,8 @@ bindkey -e
 # Spaceship
 setopt prompt_subst
 autoload -U git_current_branch
-source /usr/share/nvm/init-nvm.sh
+autoload -U git_prompt_status
+# source /usr/share/nvm/init-nvm.sh
 
 # Yarn tab completions
 source /home/developer/.yarn-config/zsh/yarn.plugin.zsh
@@ -51,7 +54,7 @@ rbenv() {
 
 
 # Antibody source
-source <(zsh $HOME/.antibody.bundle)
+source <(antibody bundle < $HOME/.antibody.bundle)
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
